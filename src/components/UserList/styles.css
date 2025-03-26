@@ -1,0 +1,88 @@
+.user-table {
+  width: 100%;
+  margin-top: 20px;
+  border: 2px solid hsl(0, 0%, 87%);
+  background-color: hsl(0, 0%, 87%, 0.4);
+  border-radius:1%;
+}
+
+.user-table th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid hsl(0, 0%, 87%);
+}
+
+.user-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-row {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.user-row:hover {
+  background-color: hsla(0, 0%, 100%, 0.7);
+}
+
+.view-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  pointer-events: auto;
+}
+
+.view-button:hover {
+  background-color: #45a049;
+}
+
+.no-results {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+.user-details {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #1976d2;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 5px 0;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.details-table td {
+  padding: 8px 0;
+  vertical-align: top;
+}
+
+.details-table tr td:first-child {
+  width: 120px;
+  font-weight: bold;
+  color: #555;
+}

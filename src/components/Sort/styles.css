@@ -1,0 +1,29 @@
+/* components/SortControls/styles.css */
+.sort-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort-controls button {
+  background: none;
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.sort-controls button:hover {
+  background-color: #f0f0f0;
+}
+
+.sort-controls button.active {
+  background-color: #e0e0e0;
+  border-color: #bbb;
+}
+
+.sort-controls span {
+  font-size: 14px;
+  color: #666;
+}
